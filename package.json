@@ -1,6 +1,6 @@
 {
   "name": "dcx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple class name manager for DOM elements.",
   "source": "index.js",
   "module": "dist/dcx.es.js",
