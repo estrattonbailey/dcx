@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "microbundle build",
-    "prebuild": "npm run test",
+    "postbuild": "npm run test",
     "watch": "microbundle watch --compress false",
     "test": "ava"
   },
@@ -32,6 +32,6 @@
   "devDependencies": {
     "ava": "^1.4.1",
     "jsdom": "^15.1.1",
-    "microbundle": "^0.9.0"
+    "microbundle": "^0.11.0"
   }
 }

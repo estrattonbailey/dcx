@@ -1,4 +1,4 @@
-export function dcx (node) {
+export default function dcx (node) {
   return function cx (...cns) {
     cns.reduce((arr, val) => {
       return arr.concat(

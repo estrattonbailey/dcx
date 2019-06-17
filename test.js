@@ -1,5 +1,5 @@
 import test from 'ava'
-import { dcx } from './dist/dcx.js'
+import dcx from './dist/dcx.js'
 import { JSDOM } from 'jsdom'
 
 const dom = new JSDOM(`<body>
