@@ -9,7 +9,7 @@ export default function dcx (node) {
         )
       )
     }, []).map(def => {
-      node.classList[def[1] ? 'add' : 'remove'](def[0])
+      node.classList[def[1] ? 'add' : 'remove'](...def[0].split(' '))
     })
   }
 }
