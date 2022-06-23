@@ -31,7 +31,7 @@
   "homepage": "https://github.com/estrattonbailey/dcx#readme",
   "devDependencies": {
     "ava": "^1.4.1",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "microbundle": "^0.11.0"
   }
 }
